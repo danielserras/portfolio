@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import Prizes from "../Prizes/Prizes";
 import Hobbies from "../Hobbies/Hobbies";
 import Contacts from "../Contacts/Contacts";
+import image from "../../image.jpg";
 
 function Content() {
   return (
@@ -14,7 +15,7 @@ function Content() {
       <div
         style={{
           height: "50vh",
-          backgroundImage: `url(/image.jpg)`,
+          backgroundImage: `url(${image})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
