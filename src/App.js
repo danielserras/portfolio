@@ -7,6 +7,7 @@ import {CssBaseline} from '@mui/material';
 import { useSelector } from 'react-redux';
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   
