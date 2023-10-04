@@ -34,7 +34,9 @@ function App() {
           <NavBar theme={theme}></NavBar>
         </header>
         <main>
-          <Content></Content>
+        <Routes>
+          <Route path="/" element={<Content></Content>} />
+        </Routes>
         </main>
         <footer>
           <Footer></Footer>
