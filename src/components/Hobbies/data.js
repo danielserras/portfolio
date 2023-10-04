@@ -6,7 +6,7 @@ export const volItems = [
     {title: "Rancho Folclórico 'Os Resineiros' de Alcaravela",
     startDate: "2021",
     endDater: "Presente",
-    description: "Para além de músico desde 2010, desempenho a função de 3º Vogal da Direção."
+    description: "Para além de músico desde 2012, desempenho a função de 3º Vogal da Direção."
 }
 ]
 
@@ -22,10 +22,10 @@ description:
 }]
 
 export const musicItems = [{title: "Rancho Folclório 'Os Resineiros' de Alcaravela",
-startDate:"2010",
+startDate:"2012",
 endDate:"Presente",
 description: "Acordeonista"},
 {title: "Presença em diversos festivais e galas de acordeão a nível nacional",
-startDate: "2010",
+startDate: "2012",
 endDate: "Presente",
 description: "Acordeonista convidado, tocando a solo ou em outros formatos em diversos festivais e galas de acordeão"}]
