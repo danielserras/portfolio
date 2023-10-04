@@ -15,7 +15,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { changeMode } from './colorModeSIice';
 import { CssBaseline } from '@mui/material';
 
-const pages = ['Percurso Académico', 'Experiência Profissional', 'Projetos', 'Prémios','Currículo','Contactos'];
+const pages = ['Percurso Académico', 'Experiência Profissional', 'Projetos', 'Prémios', 'Hobbies', 'Currículo','Contactos'];
 const name = "Daniel Serras";
 
 function NavBar (){

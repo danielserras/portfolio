@@ -6,7 +6,7 @@ import { Typography } from '@mui/material';
 
 function Hobbies () {
     return(
-        <Section textColor="#000000" color="#EFF1ED" title="Hobbies">
+        <Section id={"page_4"} textColor="#000000" color="#EFF1ED" title="Hobbies">
             <Typography component="h2" variant="h5">Voluntariado</Typography>
             <ItemsList items={volItems}></ItemsList>
             <Typography component="h2" variant="h5">Música</Typography>

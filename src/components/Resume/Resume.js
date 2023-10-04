@@ -11,7 +11,7 @@ function Resume() {
 
     const pageNumber = 1;
     return(
-        <Section id={"page_4"} textColor="#000000" color="#FFFFFF" title="Currículo">
+        <Section id={"page_5"} textColor="#000000" color="#FFFFFF" title="Currículo">
             <iframe src={curriculo} 
                 width="100%"
                 height="1100">
