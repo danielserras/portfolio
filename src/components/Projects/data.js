@@ -48,7 +48,7 @@ export const backend = [
       {
         descricao:
           "Este projeto envolveu o desenvolvimento de um software chamado 'relayStations' com uma finalidade pedagógica. O objetivo principal é calcular o tempo de transmissão de um sinal entre duas estações de transmissão num rede. O software recebe como inputs uma descrição da rede de estações, onde cada estação é caracterizada por um nome, potência, geração e conexões com outras estações. Para além disso, é sabido quais as estações específicas. O objetivo passa por calcular o tempo mais rápido possível, em milissegundos, que um sinal demora entre as duas estações. O cálculo tem em conta diversos parâmetros, como a potência das estações, as conexões diretas ou indiretas, e segue regras específicas com base nas potências das estações.",
-        tecnologias: "Python 3",
+        tecnologias: ["Python 3"],
       },
     ],
   },
@@ -295,7 +295,7 @@ export const ui = [
       {
         descricao:
           "O projeto passou pelo desenvolvimento de uma interface para uma aplicação que visava revolucionar a gestão de serviços em hotéis, permitindo que os clientes controlem, façam reservas de serviços de forma digitral e centralizada. A aplicação oferece funcionalidades como reserva de cadeiras de piscina e jantares com chef, além de uma tarefa adicional que foi definida após a análise de requisitos (reserva de lugares de estacionamento). A interface foi projetada para fuincionar em dispositivos como smartphones. O objetivo foi de familiarizar os alunos com as diversas fases do design de interfaces pessoa-máquina, segundo uma perspetiva centrada nos utilizadores. Passou-se por diversas fases que são essenciais para o design, o levantamento de requisitos, a análise de requisitos de usabilidade, o design e construção de protótipos, e a sua avaliação.",
-        tecnologias: "-",
+        tecnologias: ["-"],
       },
     ],
   },

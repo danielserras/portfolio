@@ -11,7 +11,7 @@ function Contacts () {
                 Linkedin
             </Button>
         </Section>
-    )
+    )       
 }
 
 export default Contacts;

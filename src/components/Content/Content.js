@@ -31,7 +31,7 @@ function Content() {
             flexDirection: "column",
           }}
         >
-          <Typography variant="h1" color="primary">
+          <Typography component="h1" variant="h2" color="primary">
             Bem-Vindo(a)
           </Typography>
         </div>

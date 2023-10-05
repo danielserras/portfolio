@@ -4,7 +4,7 @@ import * as React from 'react';
 function ProjInfo(props) {
     return (
         <Grid item xs={12} md={6}>
-            <Box sx={{ mt: 3, boxShadow: 2, minHeight: "100%" }}>
+            <Box sx={{p:2, mt: 3, boxShadow: 2, minHeight: "100%" }}>
                 <Typography inline sx={{ ml: 0, color: "primary.main" }} variant="h6" component="h3">{props.data.cadeira} </Typography>
                 {props.data.subtitle ? 
                     <Typography sx={{color: "primary.main"}} variant="subtitle">{props.data.subtitle}</Typography>
@@ -16,7 +16,7 @@ function ProjInfo(props) {
                         <ListItem>
                             <ListItemText
                                 primary={item.descricao}
-                                secondary={`Tecnologias e ferramentas utilizadas: ${item.tecnologias}`}
+                                secondary={`Tecnologias e ferramentas utilizadas: ${item.tecnologias.join(", ")}`}
                             >
 
                             </ListItemText>

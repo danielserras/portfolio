@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography'
 function Section (props){
     return(
         <Container id={props.id} maxWidth={false} sx={{bgcolor:props.color, color:props.textColor, p:4}}>
-            <Typography component="h1" variant="h3" sx={{fontFamily: 'monospace'}} >{props.title}</Typography>
+            <Typography component="h1" variant="h4" sx={{fontFamily: 'monospace'}} >{props.title}</Typography>
             {props.children}
         </Container>
     )
