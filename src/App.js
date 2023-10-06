@@ -18,7 +18,7 @@ function App() {
     palette: {
       mode: colorMode,
       primary: {
-        main: '#004d40'
+        main: '#153C57'
       },
       secondary: {
         main: '#ffd54f',

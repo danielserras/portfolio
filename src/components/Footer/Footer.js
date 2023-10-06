@@ -5,7 +5,7 @@ import Section from '../Section/Section';
 
 function Footer(){
     return (
-        <Section textColor="#FFFFFF" color="#004d40">
+        <Section textColor="#FFFFFF" color="#153C57">
             <Typography variant="caption">© Copyright Daniel Serras 2023. Todos os direitos reservados.</Typography>
         </Section>
     )
