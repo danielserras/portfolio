@@ -16,6 +16,7 @@ function ProjInfo(props) {
                         <ListItem>
                             <ListItemText
                                 primary={item.descricao}
+                                primaryTypographyProps={align:"justify"}
                                 secondary={`Tecnologias e ferramentas utilizadas: ${item.tecnologias.join(", ")}`}
                             >
 
