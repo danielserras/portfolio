@@ -5,7 +5,7 @@ import { prizesItems } from './data';
 
 function Prizes () {
     return(
-        <Section id={"page_3"} textColor="#FFFFFF" color="#153C57" title="Prémios">
+        <Section id={"page_3"} textColor="#FFFFFF" color="#004d40" title="Prémios">
             <ItemsList items={prizesItems}></ItemsList>
         </Section>
     )
