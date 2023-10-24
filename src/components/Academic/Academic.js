@@ -6,7 +6,7 @@ import { academicItems } from './data';
 function Academic () {
     return(
         <Section id="page_0" color="#FFFFFF" title="Percurso Académico">
-            <ItemsList items={academicItems}></ItemsList>
+            <ItemsList academic items={academicItems}></ItemsList>
         </Section>
     )
 }

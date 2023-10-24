@@ -10,9 +10,9 @@ function Hobbies () {
             <Typography component="h2" variant="h5">Voluntariado</Typography>
             <ItemsList items={volItems}></ItemsList>
             <Typography component="h2" variant="h5">Música</Typography>
-            <ItemsList items={musicItems}></ItemsList>
+            <ItemsList items={musicItems} ></ItemsList>
             <Typography component="h2" variant="h5">Desporto</Typography>
-            <ItemsList items={sportItems}></ItemsList>
+            <ItemsList items={sportItems} disableTypography></ItemsList>
         </Section>
     )
 }

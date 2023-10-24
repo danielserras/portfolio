@@ -59,23 +59,23 @@ function Projects () {
                         ))}
                     </FormGroup>
                 </Grid>
-                {checkboxes.Fullstack && fullstack.map((item) => (
-                    <ProjInfo data={item}></ProjInfo>
+                {checkboxes.Fullstack && fullstack.map((item, index) => (
+                    <ProjInfo key={index} data={item}></ProjInfo>
                 ))}
-                {checkboxes['Back-end'] && backend.map((item) => (
-                    <ProjInfo data={item}></ProjInfo>
+                {checkboxes['Back-end'] && backend.map((item, index) => (
+                    <ProjInfo key={index} data={item}></ProjInfo>
                 ))}
-                {checkboxes['Front-end'] && frontend.map((item) => (
-                    <ProjInfo data={item}></ProjInfo>
+                {checkboxes['Front-end'] && frontend.map((item, index) => (
+                    <ProjInfo key={index} data={item}></ProjInfo>
                 ))}
-                {checkboxes['UI/UX'] && ui.map((item) => (
-                    <ProjInfo data={item}></ProjInfo>
+                {checkboxes['UI/UX'] && ui.map((item, index) => (
+                    <ProjInfo key={index} data={item}></ProjInfo>
                 ))}
-                {checkboxes['Bases de Dados'] && databases.map((item) => (
-                    <ProjInfo data={item}></ProjInfo>
+                {checkboxes['Bases de Dados'] && databases.map((item, index) => (
+                    <ProjInfo key={index} data={item}></ProjInfo>
                 ))}
-                {checkboxes.Outros && others.map((item) => (
-                    <ProjInfo data={item}></ProjInfo>
+                {checkboxes.Outros && others.map((item, index) => (
+                    <ProjInfo key={index} data={item}></ProjInfo>
                 ))}
             </Grid>
         </Section>

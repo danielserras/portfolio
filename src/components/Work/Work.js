@@ -6,7 +6,7 @@ import ItemsList from '../ItemsList/ItemsList';
 function Work () {
     return(
         <Section id={"page_1"} textColor="#000000" color="#EFF1ED" title="Experiência Profissional">
-            <ItemsList items={workItems}></ItemsList>
+            <ItemsList items={workItems} disableTypography></ItemsList>
         </Section>
     )
 }

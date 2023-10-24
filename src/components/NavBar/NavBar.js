@@ -103,7 +103,7 @@ function NavBar (){
                             }}
                             >
                             {pages.map((page, index) => (
-                                <MenuItem key={page} onClick={(event) => goFor(event, `page_${index}`)}>
+                                <MenuItem key={page+index} onClick={(event) => goFor(event, `page_${index}`)}>
                                     <Typography color="#000000" textAlign="center">{page}</Typography>
                                 </MenuItem>
                             ))}
