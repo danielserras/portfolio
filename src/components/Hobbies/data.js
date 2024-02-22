@@ -6,7 +6,7 @@ export const volItems = [
     {title: "Rancho Folclórico 'Os Resineiros' de Alcaravela",
     startDate: "2021",
     endDater: "Presente",
-    description: "Para além de músico desde 2012, desempenho a função de 3º Vogal da Direção."
+    description: "Para além de músico desde 2012, desempenho a função de 2º Vogal da Direção."
 }
 ]
 
